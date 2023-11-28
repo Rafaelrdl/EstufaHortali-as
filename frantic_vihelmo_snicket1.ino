@@ -24,7 +24,7 @@ void loop()
   ValorTMP = analogRead(pinTMP);
   Serial.println(ValorTMP);
   
-  if(ValorTMP <= 164)
+  if(ValorTMP <= 165)
   {    
 	digitalWrite(PinAzul, LOW);
   	digitalWrite(PinRox, LOW);
